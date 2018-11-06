@@ -1,0 +1,9 @@
+*filter
+
+# Set Chain Policies
+:INPUT ACCEPT [0:0]
+:OUTPUT ACCEPT [0:0]
+:FORWARD ACCEPT [0:0]
+
+# Commit The Changes
+COMMIT
