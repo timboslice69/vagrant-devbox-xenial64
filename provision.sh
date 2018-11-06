@@ -20,6 +20,9 @@ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 echo "Update apt-get"
 sudo apt-get update
 
+echo "Set Locale"
+sudo apt-get install language-pack-UTF-8
+
 echo "*** Install MongoDB ***"
 sudo apt-get install -y mongodb-org
 sudo service mongod stop
